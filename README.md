@@ -13,13 +13,15 @@ implied prior expertise.
 - Demonstrate forensic-tool engineering through a validated project.
 - Publish professional case reports that can be discussed in interviews.
 
-## Planned portfolio
+## Portfolio investigations
 
-1. Windows endpoint intrusion investigation
-2. Memory and malware-triage investigation
-3. Network and identity investigation
-4. End-to-end enterprise incident response capstone
-5. HeaderHunter forensic-tool engineering case study
+- [Meridian Financial Services Ransomware Incident](portfolio-investigations/01-meridian-ransomware-incident/) - Windows disk and PCAP analysis of a LockBit-style ransomware intrusion.
+
+Planned next cases:
+
+1. Windows memory triage investigation
+2. Scoped enterprise compromise investigation
+3. HeaderHunter forensic-tool engineering case study
 
 ## Existing flagship project
 
@@ -50,6 +52,8 @@ Every published case will include:
 - Indicators and detection opportunities
 - Containment, eradication, and recovery recommendations
 - Limitations and unanswered questions
+
+The portfolio investigation index is in [portfolio-investigations/README.md](portfolio-investigations/README.md).
 
 The detailed schedule is in [STUDY_PLAN.md](STUDY_PLAN.md). The working
 checklist is in [TRACKER.md](TRACKER.md).

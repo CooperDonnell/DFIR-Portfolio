@@ -1,0 +1,17 @@
+.DS_Store
+
+# Raw forensic evidence and working copies should not be committed.
+*.E01
+*.Ex01
+*.dd
+*.raw
+*.mem
+*.vmem
+*.pcap
+*.pcapng
+*.zip
+*.7z
+
+# Keep final cropped screenshots, but leave full-size originals local.
+portfolio-investigations/**/screenshots/_originals/
+

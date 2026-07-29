@@ -1,0 +1,19 @@
+Type,Value,Context
+Internal IP,192.168.1.45,Victim workstation observed in network capture
+Internal IP,192.168.1.88,Internal host accessed over SMB
+Domain,meridian-invoices.com,Suspicious invoice domain
+URL,http://meridian-invoices.com/stage1.ps1,PowerShell staging URL
+URL,http://meridian-invoices.com/Invoice_March2024.docm,Malicious document download path
+External IP,185.220.101.47,C2 and malicious document hosting infrastructure
+Domain,g.api.mega.co.nz,Mega API lookup related to potential exfiltration
+External IP,185.235.81.22,Resolved Mega-related IP observed in outbound HTTPS traffic
+URL,https://mega.nz/upload,Exfiltration target in malware configuration
+File,Invoice_March2024.docm,Malicious macro-enabled Word document
+File,C:\Windows\Temp\svchost_tmp.exe,Staged executable copied to internal host
+File,C:\Windows\Temp\exfil_pack.zip,Archive of user Documents folder
+File,LOCKBIT.EXE-AB4F7C2D.pf,Prefetch evidence supporting LockBit execution
+File,WINWORD.EXE-2A1C9F83.pf,Prefetch evidence supporting Word execution
+File,Restore-My-Files.txt,Ransom note named in configuration
+Extension,.lockbit,Ransomware extension named in configuration
+Onion domain,lockbitapt6vx57t3eeqjofwgcglmutr3a35nygvokja5uuccip4ykyd.onion,LockBit-related domain lookup
+
