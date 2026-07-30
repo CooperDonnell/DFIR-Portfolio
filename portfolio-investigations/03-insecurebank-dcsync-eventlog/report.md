@@ -26,7 +26,7 @@ SHA256: 679B2FF27AF6C932C07BF3E81391E455FAE98E69BF3AFF0F524E31AADC418131
 
 Raw evidence is not included in this repository.
 
-![PowerShell hash verification](screenshots/01-powershell-evtx-hash-annotated.png)
+![PowerShell hash verification](screenshots/01-powershell-evtx-hash.png)
 
 ## Tools Used
 
@@ -46,7 +46,7 @@ Event count: 3
 Task:        Directory Service Access
 ```
 
-![Event Viewer showing three Event ID 4662 records](screenshots/02-eventviewer-4662-event-list-annotated.png)
+![Event Viewer showing three Event ID 4662 records](screenshots/02-eventviewer-4662-event-list.png)
 
 Security Event ID `4662` records that an operation was performed on an object. In this case, the object access occurred against the Directory Service object server.
 
@@ -81,7 +81,7 @@ Accesses:       Control Access
 Access Mask:    0x100
 ```
 
-![Event Viewer General tab showing account, object server, and access mask](screenshots/03-eventviewer-4662-general-details-annotated.png)
+![Event Viewer General tab showing account, object server, and access mask](screenshots/03-eventviewer-4662-general-details.png)
 
 ### Replication-Related Properties
 
@@ -106,7 +106,7 @@ The key replication-rights GUID observed was:
 
 This GUID is commonly associated with Active Directory replication rights used in DCSync detection. The other observed GUID, `{19195a5b-6da0-11d0-afd3-00c04fd930c9}`, was also present in the event object context and properties, but the strongest DCSync indicator in this sample is the replication-rights GUID paired with `Control Access`.
 
-![Event Viewer XML details showing 4662 fields and replication GUIDs](screenshots/04-eventviewer-4662-xml-details-annotated.png)
+![Event Viewer XML details showing 4662 fields and replication GUIDs](screenshots/04-eventviewer-4662-xml-details.png)
 
 ## Timeline Summary
 

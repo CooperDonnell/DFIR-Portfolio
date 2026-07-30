@@ -24,7 +24,7 @@ This is intentionally scoped as an event-log investigation, not a full domain co
 - SHA256: `679B2FF27AF6C932C07BF3E81391E455FAE98E69BF3AFF0F524E31AADC418131`
 - File page: `https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES/blob/master/Credential%20Access/CA_DCSync_4662.evtx`
 
-Raw evidence, command logs, and analyst scratch notes are not included in this repository. Only final reporting artifacts, evidence summaries, annotated screenshots, timelines, and derived indicators are included.
+Raw evidence, command logs, and analyst scratch notes are not included in this repository. Only final reporting artifacts, evidence summaries, screenshots, timelines, and derived indicators are included.
 
 ## Tools Used
 
@@ -68,4 +68,4 @@ Was Active Directory replication-style access observed, which account performed 
 
 ## Evidence Policy
 
-Raw evidence and internal working material are not included in this repository. Only final reports, evidence summaries, indicators, timelines, and annotated screenshots should be committed.
+Raw evidence and internal working material are not included in this repository. Only final reports, evidence summaries, indicators, timelines, and supporting screenshots should be committed.
