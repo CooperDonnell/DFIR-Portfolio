@@ -1,4 +1,14 @@
+<p align="center">
+  <img src="../../assets/case-02-hackforge.svg" alt="HackForge unusual process memory triage case card" width="100%">
+</p>
+
 # HackForge Unusual Process Memory Triage
+
+<p>
+  <img src="https://img.shields.io/badge/status-published-5cf2a8?style=flat-square" alt="Published status badge">
+  <img src="https://img.shields.io/badge/evidence-memory-21d4fd?style=flat-square" alt="Memory evidence badge">
+  <img src="https://img.shields.io/badge/tool-Volatility%203-b721ff?style=flat-square" alt="Volatility 3 badge">
+</p>
 
 ## Case Summary
 
@@ -43,6 +53,15 @@ What process is unusual, why is it suspicious, and what evidence in memory suppo
 - Volatility network review did not identify a confirmed remote connection tied directly to `scvhost.exe`.
 - `malfind` did not report injected or suspicious private executable memory for `scvhost.exe`.
 - The conclusion is based on process masquerading, suspicious parentage, user-writable execution path, and memory artifact evidence.
+
+## Recruiter View
+
+| Skill Signal | Evidence in This Case |
+| --- | --- |
+| Memory triage | Volatility 3 review of system info, process list, process tree, command lines, and VADs |
+| Suspicious process analysis | `scvhost.exe` masquerading as `svchost.exe` |
+| Process lineage | PowerShell parent process with suspicious child execution |
+| Professional judgment | Clear limitations around `malfind` and unconfirmed direct network activity |
 
 ## Repository Contents
 

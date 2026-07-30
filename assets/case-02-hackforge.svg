@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">HackForge Unusual Process Memory Triage</title>
+  <desc id="desc">Case card for a Windows memory investigation using Volatility 3.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06172a"/>
+      <stop offset="0.52" stop-color="#123c46"/>
+      <stop offset="1" stop-color="#19245d"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#21d4fd"/>
+      <stop offset="1" stop-color="#5cf2a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="220" rx="20" fill="url(#bg)"/>
+  <circle cx="590" cy="56" r="88" fill="#21d4fd" opacity="0.13"/>
+  <circle cx="670" cy="170" r="118" fill="#5cf2a8" opacity="0.1"/>
+  <path d="M42 60 H665" stroke="url(#line)" stroke-width="5" stroke-linecap="round"/>
+  <text x="42" y="105" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">HackForge Memory Triage</text>
+  <text x="42" y="142" fill="#d7f7ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Volatility 3 investigation identifying scvhost.exe masquerading, PowerShell parentage, and suspicious Temp-path execution.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    <rect x="42" y="164" width="110" height="30" rx="15" fill="#21d4fd" opacity="0.2" stroke="#21d4fd"/>
+    <text x="62" y="185" fill="#c8f6ff">Volatility 3</text>
+    <rect x="164" y="164" width="116" height="30" rx="15" fill="#5cf2a8" opacity="0.18" stroke="#5cf2a8"/>
+    <text x="184" y="185" fill="#cdffe4">Memory</text>
+    <rect x="292" y="164" width="144" height="30" rx="15" fill="#b721ff" opacity="0.18" stroke="#b721ff"/>
+    <text x="314" y="185" fill="#edc7ff">Masquerading</text>
+  </g>
+</svg>

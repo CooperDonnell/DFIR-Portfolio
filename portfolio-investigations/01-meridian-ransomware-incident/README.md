@@ -1,4 +1,14 @@
+<p align="center">
+  <img src="../../assets/case-01-meridian.svg" alt="Meridian ransomware incident case card" width="100%">
+</p>
+
 # Meridian Financial Services Ransomware Incident
+
+<p>
+  <img src="https://img.shields.io/badge/status-published-5cf2a8?style=flat-square" alt="Published status badge">
+  <img src="https://img.shields.io/badge/evidence-disk%20%2B%20pcap-21d4fd?style=flat-square" alt="Disk and PCAP badge">
+  <img src="https://img.shields.io/badge/family-LockBit-ff4d6d?style=flat-square" alt="LockBit badge">
+</p>
 
 ## Case Summary
 
@@ -33,6 +43,15 @@ Raw evidence, command logs, and analyst scratch notes are not included in this r
 - The attacker accessed internal host `192.168.1.88` over SMB.
 - User documents were compressed into `C:\Windows\Temp\exfil_pack.zip`.
 - LockBit indicators were present, including `.lockbit`, `Restore-My-Files.txt`, and a LockBit onion domain.
+
+## Recruiter View
+
+| Skill Signal | Evidence in This Case |
+| --- | --- |
+| Initial access analysis | Suspicious macro-enabled Word document and PowerShell download cradle |
+| Host artifact review | MFT context, Prefetch artifacts, malicious configuration file |
+| Network forensics | DNS, HTTP, TLS, SMB, Mega-related activity, LockBit onion lookup |
+| IR judgment | Timeline, ATT&CK mapping, IOCs, recovery-focused recommendations |
 
 ## Repository Contents
 
