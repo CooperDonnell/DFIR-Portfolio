@@ -15,3 +15,6 @@
 # Keep final cropped screenshots, but leave full-size originals local.
 portfolio-investigations/**/screenshots/_originals/
 
+# Local study/lab material that is not part of the public portfolio.
+cases/
+lab-automation/

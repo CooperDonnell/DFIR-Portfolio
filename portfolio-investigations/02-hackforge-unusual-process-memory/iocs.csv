@@ -1,0 +1,7 @@
+Type,Value,Context
+Process,scvhost.exe,Misspelled svchost.exe lookalike
+PID,5924,Suspicious process spawned by powershell.exe
+Parent process,powershell.exe,Parent of suspicious process
+Parent PID,3520,PowerShell process associated with suspicious child process
+File path,C:\Users\Bob\AppData\Local\Temp\scvhost.exe,Suspicious executable path in user-writable Temp directory
+Local IP,10.10.10.50,Local host address observed in netscan output

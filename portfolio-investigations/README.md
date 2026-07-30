@@ -7,8 +7,8 @@ This folder contains polished, GitHub-ready DFIR case studies. Each investigatio
 | Case | Focus | Tools |
 | --- | --- | --- |
 | [Meridian Financial Services Ransomware Incident](01-meridian-ransomware-incident/) | Windows disk and PCAP analysis of a LockBit-style ransomware intrusion | Autopsy, Wireshark, PowerShell |
+| [HackForge Unusual Process Memory Triage](02-hackforge-unusual-process-memory/) | Windows memory triage for suspicious process activity | Volatility 3, PowerShell |
 
 ## Evidence Policy
 
 Raw evidence files are not included in this repository. Public evidence sources are cited in each case, and the repository contains only derived notes, screenshots, timelines, indicators, and reports.
-
