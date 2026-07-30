@@ -1,34 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270" role="img" aria-labelledby="title desc">
   <title id="title">Meridian Ransomware Incident</title>
-  <desc id="desc">Blue and green case card for a ransomware investigation using disk and network evidence.</desc>
+  <desc id="desc">Terminal-style blue and green case card for a ransomware investigation using disk and network evidence.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#031020"/>
-      <stop offset="0.55" stop-color="#063047"/>
-      <stop offset="1" stop-color="#06443a"/>
+      <stop offset="0" stop-color="#02060d"/>
+      <stop offset="0.62" stop-color="#031924"/>
+      <stop offset="1" stop-color="#03352f"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00e5ff"/>
-      <stop offset="1" stop-color="#00ff9c"/>
-    </linearGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#8bfaff" opacity="0.055"/>
+    </pattern>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#00e5ff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="760" height="240" rx="18" fill="url(#bg)"/>
-  <path d="M42 58 H220 L256 92 H420 L468 128 H704" fill="none" stroke="#00e5ff" stroke-width="3" stroke-opacity="0.55"/>
-  <path d="M42 190 H196 L232 158 H370 L420 120 H704" fill="none" stroke="#00ff9c" stroke-width="3" stroke-opacity="0.45"/>
-  <circle cx="220" cy="58" r="5" fill="#00e5ff"/>
-  <circle cx="420" cy="92" r="5" fill="#00e5ff"/>
-  <circle cx="232" cy="158" r="5" fill="#00ff9c"/>
-  <text x="42" y="104" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">Meridian Ransomware Incident</text>
-  <text x="42" y="140" fill="#d5fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">
-    <tspan x="42" dy="0">Disk and PCAP analysis of malicious document staging, C2,</tspan>
-    <tspan x="42" dy="28">SMB movement, exfiltration preparation, and LockBit indicators.</tspan>
-  </text>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
-    <rect x="42" y="184" width="96" height="30" rx="8" fill="#00e5ff" opacity="0.14" stroke="#00e5ff"/>
-    <text x="64" y="205" fill="#c8f8ff">Autopsy</text>
-    <rect x="152" y="184" width="110" height="30" rx="8" fill="#00ff9c" opacity="0.14" stroke="#00ff9c"/>
-    <text x="174" y="205" fill="#c9ffe8">Wireshark</text>
-    <rect x="276" y="184" width="92" height="30" rx="8" fill="#00e5ff" opacity="0.14" stroke="#00e5ff"/>
-    <text x="300" y="205" fill="#c8f8ff">LockBit</text>
+  <rect width="760" height="270" rx="18" fill="url(#bg)"/>
+  <rect width="760" height="270" rx="18" fill="url(#grid)"/>
+  <rect width="760" height="270" rx="18" fill="url(#scanlines)"/>
+  <line x1="0" y1="42" x2="760" y2="42" stroke="#00ff8a" stroke-width="2" opacity="0.75"/>
+  <text x="28" y="28" fill="#00ff8a" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="700">case-01:~$</text>
+  <text x="598" y="28" fill="#00e5ff" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="15">disk</text>
+  <text x="652" y="28" fill="#00e5ff" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="15">pcap</text>
+
+  <rect x="34" y="68" width="692" height="112" fill="#020911" opacity="0.58" stroke="#00ff8a" stroke-width="2"/>
+  <rect x="40" y="74" width="680" height="100" fill="none" stroke="#00e5ff" stroke-opacity="0.32"/>
+  <g font-family="Fira Code, SFMono-Regular, Consolas, monospace" filter="url(#glow)">
+    <text x="58" y="108" fill="#00ff8a" font-size="27" font-weight="800" letter-spacing="2">MERIDIAN RANSOMWARE INCIDENT</text>
+    <text x="60" y="142" fill="#00e5ff" font-size="17" font-weight="700">malicious document -> PowerShell -> C2 -> SMB -> LockBit</text>
+  </g>
+
+  <g font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="16">
+    <text x="36" y="209" fill="#00e5ff" font-weight="700">key findings:</text>
+    <rect x="158" y="194" width="9" height="20" fill="#00ff8a"/>
+    <text x="36" y="236" fill="#b9fff0">Invoice_March2024.docm | 185.220.101.47 | 192.168.1.88</text>
+  </g>
+  <g font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700">
+    <rect x="532" y="198" width="82" height="28" fill="#00e5ff" opacity="0.16" stroke="#00e5ff"/>
+    <text x="548" y="217" fill="#c8f8ff">Autopsy</text>
+    <rect x="628" y="198" width="98" height="28" fill="#00ff8a" opacity="0.16" stroke="#00ff8a"/>
+    <text x="642" y="217" fill="#c9ffe8">Wireshark</text>
   </g>
 </svg>

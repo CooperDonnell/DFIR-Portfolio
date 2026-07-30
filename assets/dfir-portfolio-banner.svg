@@ -48,21 +48,24 @@
     <text x="62" y="372" fill="#a8dce2">Focus: Windows artifacts | memory triage | network forensics</text>
   </g>
 
+  <rect x="762" y="82" width="458" height="288" fill="#020911" opacity="0.32" stroke="#00e5ff" stroke-opacity="0.16"/>
+  <text x="780" y="96" fill="#6affc2" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="18">casework:</text>
+  <g font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="18">
+    <text x="780" y="154" fill="#a8dce2">01 ransomware intrusion</text>
+    <text x="780" y="230" fill="#a8dce2">02 unusual process memory</text>
+    <text x="780" y="306" fill="#a8dce2">03 enterprise compromise planned</text>
+  </g>
   <g fill="none" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)">
-    <path d="M780 128 H920 L952 160 H1070 L1100 130 H1210" stroke="#00e5ff" opacity="0.82"/>
-    <path d="M780 208 H890 L930 246 H1040 L1082 286 H1210" stroke="#00ff8a" opacity="0.82"/>
-    <path d="M825 322 H965 L1004 286 H1128 L1166 248 H1210" stroke="#00e5ff" opacity="0.65"/>
+    <path d="M1136 134 H1174 L1198 112 H1210" stroke="#00e5ff" opacity="0.82"/>
+    <path d="M1136 218 H1174 L1198 242 H1210" stroke="#00ff8a" opacity="0.82"/>
+    <path d="M1136 302 H1174 L1198 278 H1210" stroke="#00e5ff" opacity="0.65"/>
   </g>
   <g>
-    <circle cx="920" cy="128" r="6" fill="#00e5ff"/>
-    <circle cx="1070" cy="160" r="6" fill="#00e5ff"/>
-    <circle cx="890" cy="208" r="6" fill="#00ff8a"/>
-    <circle cx="1040" cy="246" r="6" fill="#00ff8a"/>
-    <circle cx="965" cy="322" r="6" fill="#00e5ff"/>
-    <circle cx="1128" cy="286" r="6" fill="#00e5ff"/>
+    <circle cx="1136" cy="134" r="6" fill="#00e5ff"/>
+    <circle cx="1198" cy="112" r="6" fill="#00e5ff"/>
+    <circle cx="1136" cy="218" r="6" fill="#00ff8a"/>
+    <circle cx="1198" cy="242" r="6" fill="#00ff8a"/>
+    <circle cx="1136" cy="302" r="6" fill="#00e5ff"/>
+    <circle cx="1198" cy="278" r="6" fill="#00e5ff"/>
   </g>
-  <text x="780" y="96" fill="#6affc2" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="18">casework:</text>
-  <text x="780" y="178" fill="#a8dce2" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="18">01 ransomware intrusion</text>
-  <text x="780" y="258" fill="#a8dce2" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="18">02 unusual process memory</text>
-  <text x="780" y="346" fill="#a8dce2" font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="18">03 enterprise compromise planned</text>
 </svg>
