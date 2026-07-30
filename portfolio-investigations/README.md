@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/dfir-portfolio-banner.svg" alt="Cooper Donnell DFIR Portfolio banner" width="100%">
+  <img src="../assets/dfir-portfolio-banner.svg" alt="Terminal-style Cooper Donnell DFIR Portfolio banner" width="100%">
 </p>
 
 # DFIR Portfolio Investigations
