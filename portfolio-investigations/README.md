@@ -1,6 +1,6 @@
 # DFIR Portfolio Investigations
 
-This folder contains polished, GitHub-ready DFIR case studies. Each investigation is written as a defensible case report with evidence handling notes, timeline, indicators, screenshots, MITRE ATT&CK mapping, recommendations, and limitations.
+This folder contains polished, GitHub-ready DFIR case studies. Each investigation is written as a defensible case report with evidence handling notes, timeline, indicators, annotated screenshots, MITRE ATT&CK mapping, recommendations, and limitations.
 
 ## Published Investigations
 
@@ -11,4 +11,4 @@ This folder contains polished, GitHub-ready DFIR case studies. Each investigatio
 
 ## Evidence Policy
 
-Raw evidence files are not included in this repository. Public evidence sources are cited in each case, and the repository contains only derived notes, screenshots, timelines, indicators, and reports.
+Raw evidence files, tool output dumps, command logs, and analyst scratch notes are not included in this repository. Public evidence sources are cited in each case, and the repository contains only final reports, evidence summaries, annotated screenshots, timelines, and indicators.

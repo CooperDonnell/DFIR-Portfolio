@@ -4,7 +4,7 @@
 
 This investigation analyzes a public ransomware case involving a Windows workstation and network capture. The suspected incident began with a malicious macro-enabled Word document and progressed through PowerShell-based staging, command-and-control communication, defense evasion, lateral movement, data staging, and LockBit ransomware execution.
 
-![Autopsy view of malicious document](screenshots/01-autopsy-invoice-docm.png)
+![Autopsy view of malicious document](screenshots/01-autopsy-invoice-docm-annotated.png)
 
 ## Evidence Source
 
@@ -14,7 +14,7 @@ This investigation analyzes a public ransomware case involving a Windows worksta
   - `meridian_incident.pcap`
 - Original ZIP MD5: `F875B60AB2DF099805978DE9A2DA74EE`
 
-Raw evidence is not included in this repository. Only analysis notes, screenshots, derived indicators, and reporting artifacts are included.
+Raw evidence, command logs, and analyst scratch notes are not included in this repository. Only final reporting artifacts, evidence summaries, annotated screenshots, timelines, and derived indicators are included.
 
 ## Tools Used
 

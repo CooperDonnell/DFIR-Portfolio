@@ -82,7 +82,7 @@ This process instead ran from a user-writable Temp directory:
 C:\Users\Bob\AppData\Local\Temp\scvhost.exe
 ```
 
-![Volatility pslist output showing scvhost.exe](screenshots/02-volatility-pslist-scvhost.png)
+![Volatility pslist output showing scvhost.exe](screenshots/02-volatility-pslist-scvhost-annotated.png)
 
 ### Parent-Child Relationship
 
@@ -94,13 +94,13 @@ powershell.exe -> scvhost.exe
 
 This is suspicious because PowerShell is commonly used for script execution, payload staging, and post-exploitation activity. A lookalike service-host process spawned by PowerShell from a Temp directory is not consistent with normal Windows service-host behavior.
 
-![Volatility pstree output showing powershell.exe parent process](screenshots/03-volatility-pstree-scvhost-parent.png)
+![Volatility pstree output showing powershell.exe parent process](screenshots/03-volatility-pstree-scvhost-parent-annotated.png)
 
 ### Command Line Review
 
 The command line review showed normal Windows service-host command lines for legitimate `svchost.exe` instances and showed the suspicious `scvhost.exe` process separately. The useful finding was the process name and lineage rather than a long visible command-line argument.
 
-![Volatility cmdline output showing scvhost.exe](screenshots/04-volatility-cmdline-scvhost.png)
+![Volatility cmdline output showing scvhost.exe](screenshots/04-volatility-cmdline-scvhost-annotated.png)
 
 ### Network Activity
 
@@ -128,7 +128,7 @@ Because `malfind` did not identify suspicious injected memory for `scvhost.exe`,
 
 This supports that the unusual process was backed by an executable in the user's Temp directory, reinforcing the process masquerading finding.
 
-![Volatility vadinfo output showing scvhost.exe Temp path](screenshots/05-volatility-vadinfo-scvhost-temp-path.png)
+![Volatility vadinfo output showing scvhost.exe Temp path](screenshots/05-volatility-vadinfo-scvhost-temp-path-annotated.png)
 
 ## MITRE ATT&CK Mapping
 

@@ -19,3 +19,7 @@ portfolio-investigations/**/screenshots/_unannotated/
 # Local study/lab material that is not part of the public portfolio.
 cases/
 lab-automation/
+
+# Analyst scratch material should stay local; public cases should read as final reports.
+commands.md
+working-notes.md

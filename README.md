@@ -1,6 +1,6 @@
 # Cooper Donnell DFIR Portfolio
 
-This repository contains digital forensics and incident response case studies built from public evidence sets. Each case is written as a practical investigation with evidence handling notes, artifact-level findings, timelines, indicators, screenshots, and remediation recommendations.
+This repository contains digital forensics and incident response case studies built from public evidence sets. Each case is written as a practical investigation with evidence handling notes, artifact-level findings, timelines, indicators, annotated screenshots, and remediation recommendations.
 
 ## Goals
 
@@ -32,5 +32,7 @@ Every published case will include:
 - Indicators and detection opportunities
 - Containment, eradication, and recovery recommendations
 - Limitations and unanswered questions
+
+Raw evidence, tool output dumps, and analyst scratch notes are intentionally excluded so the repository stays focused on polished case reporting.
 
 The portfolio investigation index is in [portfolio-investigations/README.md](portfolio-investigations/README.md).

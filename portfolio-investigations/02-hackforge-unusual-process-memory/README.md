@@ -17,7 +17,7 @@ This is intentionally scoped as a tight memory-triage case, not a full enterpris
 - Download: `https://hackforge.com/downloads/challenges/forensics/unusual-process.7z`
 - Challenge info: `https://hackforge.com/app/challenge/20`
 
-Raw evidence is not included in this repository. Download and analyze it outside the repo, then add only findings, screenshots, and derived indicators here.
+Raw evidence, command logs, and analyst scratch notes are not included in this repository. Download and analyze the evidence outside the repo, then add only final reporting artifacts, evidence summaries, annotated screenshots, and derived indicators here.
 
 ## Tools
 
@@ -47,12 +47,10 @@ What process is unusual, why is it suspicious, and what evidence in memory suppo
 ## Repository Contents
 
 - [report.md](report.md): Main investigation report
-- [commands.md](commands.md): Minimal Volatility workflow
-- [working-notes.md](working-notes.md): Analyst working notes
 - [evidence-notes.md](evidence-notes.md): Evidence handling notes
 - [iocs.csv](iocs.csv): Indicators of compromise
 - [screenshots/README.md](screenshots/README.md): Screenshot checklist
 
 ## Evidence Policy
 
-Raw evidence is not included in this repository. Only analysis notes, indicators, screenshots, and final reporting artifacts should be committed.
+Raw evidence and internal working material are not included in this repository. Only final reports, evidence summaries, indicators, and annotated screenshots should be committed.
