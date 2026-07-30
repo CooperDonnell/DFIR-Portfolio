@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/case-01-meridian.svg" alt="Meridian ransomware incident case card" width="100%">
+  <img src="../../assets/terminal-case-01-meridian.svg" alt="Meridian ransomware incident case card" width="100%">
 </p>
 
 # Meridian Financial Services Ransomware Incident

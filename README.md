@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/dfir-portfolio-banner.svg" alt="Terminal-style Cooper Donnell DFIR Portfolio banner" width="100%">
+  <img src="assets/terminal-dfir-portfolio-banner.svg" alt="Terminal-style Cooper Donnell DFIR Portfolio banner" width="100%">
 </p>
 
 <p align="center">
@@ -28,8 +28,8 @@ This repository contains polished digital forensics and incident response case s
 
 | Case | Investigation Snapshot | Evidence and Skills |
 | --- | --- | --- |
-| [Meridian Financial Services Ransomware Incident](portfolio-investigations/01-meridian-ransomware-incident/) | [<img src="assets/case-01-meridian.svg" alt="Meridian ransomware incident case card" width="360">](portfolio-investigations/01-meridian-ransomware-incident/) | Malicious `.docm`, PowerShell staging, C2 traffic, SMB movement, Mega-related transfer activity, LockBit indicators |
-| [HackForge Unusual Process Memory Triage](portfolio-investigations/02-hackforge-unusual-process-memory/) | [<img src="assets/case-02-hackforge.svg" alt="HackForge memory triage case card" width="360">](portfolio-investigations/02-hackforge-unusual-process-memory/) | Volatility 3 process review, suspicious `scvhost.exe`, PowerShell parentage, VAD-backed Temp-path execution |
+| [Meridian Financial Services Ransomware Incident](portfolio-investigations/01-meridian-ransomware-incident/) | [<img src="assets/terminal-case-01-meridian.svg" alt="Meridian ransomware incident case card" width="360">](portfolio-investigations/01-meridian-ransomware-incident/) | Malicious `.docm`, PowerShell staging, C2 traffic, SMB movement, Mega-related transfer activity, LockBit indicators |
+| [HackForge Unusual Process Memory Triage](portfolio-investigations/02-hackforge-unusual-process-memory/) | [<img src="assets/terminal-case-02-hackforge.svg" alt="HackForge memory triage case card" width="360">](portfolio-investigations/02-hackforge-unusual-process-memory/) | Volatility 3 process review, suspicious `scvhost.exe`, PowerShell parentage, VAD-backed Temp-path execution |
 
 ## Skills Demonstrated
 
