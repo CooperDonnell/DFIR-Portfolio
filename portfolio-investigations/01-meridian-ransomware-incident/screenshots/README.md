@@ -1,6 +1,6 @@
 # Screenshot Index
 
-These screenshots are cropped analysis views used to support the report findings.
+These screenshots are cropped and annotated analysis views used to support the report findings.
 
 | File | What It Shows |
 | --- | --- |
@@ -11,4 +11,3 @@ These screenshots are cropped analysis views used to support the report findings
 | [05-wireshark-dns-docm-download.png](05-wireshark-dns-docm-download.png) | DNS resolution for `meridian-invoices.com` and HTTP retrieval of `Invoice_March2024.docm` |
 | [06-wireshark-c2-and-smb.png](06-wireshark-c2-and-smb.png) | C2 traffic and SMB activity involving internal host `192.168.1.88` |
 | [07-wireshark-exfil-lockbit-dns.png](07-wireshark-exfil-lockbit-dns.png) | Mega-related traffic and LockBit onion DNS lookup |
-

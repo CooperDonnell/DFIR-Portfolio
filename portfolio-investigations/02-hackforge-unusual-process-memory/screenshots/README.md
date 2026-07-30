@@ -1,6 +1,6 @@
 # Screenshot Index
 
-These screenshots are cropped Volatility output views used to support the report findings.
+These screenshots are cropped and annotated Volatility output views used to support the report findings.
 
 | File | What It Shows |
 | --- | --- |
