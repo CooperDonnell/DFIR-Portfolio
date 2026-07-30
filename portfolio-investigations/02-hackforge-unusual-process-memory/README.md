@@ -7,7 +7,7 @@
 <p>
   <img src="https://img.shields.io/badge/status-published-5cf2a8?style=flat-square" alt="Published status badge">
   <img src="https://img.shields.io/badge/evidence-memory-21d4fd?style=flat-square" alt="Memory evidence badge">
-  <img src="https://img.shields.io/badge/tool-Volatility%203-b721ff?style=flat-square" alt="Volatility 3 badge">
+  <img src="https://img.shields.io/badge/tool-Volatility%203-00ff9c?style=flat-square" alt="Volatility 3 badge">
 </p>
 
 ## Case Summary
@@ -54,7 +54,7 @@ What process is unusual, why is it suspicious, and what evidence in memory suppo
 - `malfind` did not report injected or suspicious private executable memory for `scvhost.exe`.
 - The conclusion is based on process masquerading, suspicious parentage, user-writable execution path, and memory artifact evidence.
 
-## Recruiter View
+## Case Highlights
 
 | Skill Signal | Evidence in This Case |
 | --- | --- |

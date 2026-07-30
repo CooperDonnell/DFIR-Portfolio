@@ -4,14 +4,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Portfolio-DFIR-21d4fd?style=for-the-badge" alt="DFIR portfolio badge">
-  <img src="https://img.shields.io/badge/Focus-Windows%20Forensics-ffb703?style=for-the-badge" alt="Windows forensics badge">
+  <img src="https://img.shields.io/badge/Focus-Windows%20Forensics-00e5ff?style=for-the-badge" alt="Windows forensics badge">
   <img src="https://img.shields.io/badge/Focus-Memory%20Triage-5cf2a8?style=for-the-badge" alt="Memory triage badge">
-  <img src="https://img.shields.io/badge/Reporting-Recruiter%20Ready-b721ff?style=for-the-badge" alt="Recruiter ready badge">
+  <img src="https://img.shields.io/badge/Focus-Network%20Forensics-00ff9c?style=for-the-badge" alt="Network forensics badge">
 </p>
 
 # DFIR Portfolio
 
-This repository contains polished digital forensics and incident response case studies built from public evidence sets. Each investigation is scoped, evidence-driven, and written like an interview discussion artifact: what happened, what artifacts support the conclusion, what the indicators are, and what response actions make sense.
+This repository contains polished digital forensics and incident response case studies built from public evidence sets. Each investigation is scoped, evidence-driven, and written to answer the practical questions that matter: what happened, what artifacts support the conclusion, what the indicators are, and what response actions make sense.
 
 > [!NOTE]
 > Raw evidence, command logs, tool output dumps, and analyst scratch notes are intentionally excluded. The repository is designed to show final investigative judgment, not clutter.
@@ -45,10 +45,10 @@ This repository contains polished digital forensics and incident response case s
 ## Tools Used
 
 <p>
-  <img src="https://img.shields.io/badge/Autopsy-Disk%20Forensics-ffb703?style=flat-square" alt="Autopsy badge">
-  <img src="https://img.shields.io/badge/Wireshark-Network%20Analysis-21d4fd?style=flat-square" alt="Wireshark badge">
+  <img src="https://img.shields.io/badge/Autopsy-Disk%20Forensics-00e5ff?style=flat-square" alt="Autopsy badge">
+  <img src="https://img.shields.io/badge/Wireshark-Network%20Analysis-00ff9c?style=flat-square" alt="Wireshark badge">
   <img src="https://img.shields.io/badge/Volatility%203-Memory%20Forensics-5cf2a8?style=flat-square" alt="Volatility 3 badge">
-  <img src="https://img.shields.io/badge/PowerShell-Hashing%20and%20Review-b721ff?style=flat-square" alt="PowerShell badge">
+  <img src="https://img.shields.io/badge/PowerShell-Hashing%20and%20Review-21d4fd?style=flat-square" alt="PowerShell badge">
 </p>
 
 The tool list is intentionally small. Each case uses only the tools needed to answer the investigative question cleanly.
@@ -74,4 +74,4 @@ Every published case includes:
 | --- | --- | --- |
 | <img src="https://img.shields.io/badge/published-01-5cf2a8" alt="Published 01 badge"> | Meridian Financial Services Ransomware Incident | Disk and PCAP ransomware investigation |
 | <img src="https://img.shields.io/badge/published-02-5cf2a8" alt="Published 02 badge"> | HackForge Unusual Process Memory Triage | Windows memory triage |
-| <img src="https://img.shields.io/badge/planned-03-ffb703" alt="Planned 03 badge"> | Scoped Enterprise Compromise Investigation | Endpoint, identity, and network correlation |
+| <img src="https://img.shields.io/badge/planned-03-00e5ff" alt="Planned 03 badge"> | Scoped Enterprise Compromise Investigation | Endpoint, identity, and network correlation |
