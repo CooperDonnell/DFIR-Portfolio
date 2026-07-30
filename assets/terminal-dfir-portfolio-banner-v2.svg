@@ -53,7 +53,7 @@
   <g font-family="Fira Code, SFMono-Regular, Consolas, monospace" font-size="18">
     <text x="780" y="154" fill="#a8dce2">01 ransomware intrusion</text>
     <text x="780" y="230" fill="#a8dce2">02 unusual process memory</text>
-    <text x="780" y="306" fill="#a8dce2">03 enterprise compromise planned</text>
+    <text x="780" y="306" fill="#a8dce2">03 dcsync event log</text>
   </g>
   <g fill="none" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)">
     <path d="M1136 134 H1174 L1198 112 H1210" stroke="#00e5ff" opacity="0.82"/>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/terminal-dfir-portfolio-banner.svg" alt="Terminal-style Cooper Donnell DFIR Portfolio banner" width="100%">
+  <img src="assets/terminal-dfir-portfolio-banner-v2.svg" alt="Terminal-style Cooper Donnell DFIR Portfolio banner" width="100%">
 </p>
 
 <p align="center">
@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Focus-Windows%20Forensics-00e5ff?style=for-the-badge" alt="Windows forensics badge">
   <img src="https://img.shields.io/badge/Focus-Memory%20Triage-5cf2a8?style=for-the-badge" alt="Memory triage badge">
   <img src="https://img.shields.io/badge/Focus-Network%20Forensics-00ff9c?style=for-the-badge" alt="Network forensics badge">
+  <img src="https://img.shields.io/badge/Focus-Active%20Directory-21d4fd?style=for-the-badge" alt="Active Directory badge">
 </p>
 
 # DFIR Portfolio
@@ -23,13 +24,15 @@ This repository contains polished digital forensics and incident response case s
 | [Portfolio investigation index](portfolio-investigations/) | Fast path to every published DFIR case |
 | [Meridian ransomware report](portfolio-investigations/01-meridian-ransomware-incident/report.md) | Disk plus PCAP analysis with initial access, C2, lateral movement, exfiltration staging, and ransomware impact |
 | [HackForge memory report](portfolio-investigations/02-hackforge-unusual-process-memory/report.md) | Volatility 3 triage identifying a suspicious process, parent-child relationship, and Temp-path execution |
+| [InsecureBank DCSync report](portfolio-investigations/03-insecurebank-dcsync-eventlog/report.md) | Active Directory Security event-log analysis of replication-style access consistent with DCSync activity |
 
 ## Featured Investigations
 
 | Case | Investigation Snapshot | Evidence and Skills |
 | --- | --- | --- |
-| [Meridian Financial Services Ransomware Incident](portfolio-investigations/01-meridian-ransomware-incident/) | [<img src="assets/terminal-case-01-meridian.svg" alt="Meridian ransomware incident case card" width="360">](portfolio-investigations/01-meridian-ransomware-incident/) | Malicious `.docm`, PowerShell staging, C2 traffic, SMB movement, Mega-related transfer activity, LockBit indicators |
-| [HackForge Unusual Process Memory Triage](portfolio-investigations/02-hackforge-unusual-process-memory/) | [<img src="assets/terminal-case-02-hackforge.svg" alt="HackForge memory triage case card" width="360">](portfolio-investigations/02-hackforge-unusual-process-memory/) | Volatility 3 process review, suspicious `scvhost.exe`, PowerShell parentage, VAD-backed Temp-path execution |
+| [Meridian Financial Services Ransomware Incident](portfolio-investigations/01-meridian-ransomware-incident/) | [<img src="assets/terminal-case-01-meridian-snapshot.svg" alt="Meridian ransomware incident case card" width="360">](portfolio-investigations/01-meridian-ransomware-incident/) | Malicious `.docm`, PowerShell staging, C2 traffic, SMB movement, Mega-related transfer activity, LockBit indicators |
+| [HackForge Unusual Process Memory Triage](portfolio-investigations/02-hackforge-unusual-process-memory/) | [<img src="assets/terminal-case-02-hackforge-snapshot.svg" alt="HackForge memory triage case card" width="360">](portfolio-investigations/02-hackforge-unusual-process-memory/) | Volatility 3 process review, suspicious `scvhost.exe`, PowerShell parentage, VAD-backed Temp-path execution |
+| [InsecureBank DCSync Event Log Investigation](portfolio-investigations/03-insecurebank-dcsync-eventlog/) | [<img src="assets/terminal-case-03-insecurebank-dcsync.svg" alt="InsecureBank DCSync event log case card" width="360">](portfolio-investigations/03-insecurebank-dcsync-eventlog/) | Security Event ID `4662`, `Control Access`, `AccessMask 0x100`, replication GUIDs, and suspicious AD account context |
 
 ## Skills Demonstrated
 
@@ -38,6 +41,7 @@ This repository contains polished digital forensics and incident response case s
 | Windows artifact analysis | MFT context, Prefetch artifacts, user profile paths, suspicious executables |
 | Network forensics | DNS, HTTP, TLS, SMB, suspicious infrastructure, exfiltration indicators |
 | Memory forensics | Volatility 3 `windows.info`, `pslist`, `pstree`, `cmdline`, `netscan`, `malfind`, and `vadinfo` review |
+| Active Directory event logs | Security Event ID `4662`, Directory Service access, replication GUID review |
 | Incident reconstruction | Timeline building, artifact correlation, cautious timestamp handling |
 | Detection thinking | IOCs, ATT&CK mapping, alerting opportunities, containment and recovery recommendations |
 | Professional reporting | Executive summaries, limitations, screenshot exhibits, evidence handling notes |
@@ -49,6 +53,7 @@ This repository contains polished digital forensics and incident response case s
   <img src="https://img.shields.io/badge/Wireshark-Network%20Analysis-00ff9c?style=flat-square" alt="Wireshark badge">
   <img src="https://img.shields.io/badge/Volatility%203-Memory%20Forensics-5cf2a8?style=flat-square" alt="Volatility 3 badge">
   <img src="https://img.shields.io/badge/PowerShell-Hashing%20and%20Review-21d4fd?style=flat-square" alt="PowerShell badge">
+  <img src="https://img.shields.io/badge/Event%20Viewer-Windows%20Logs-00ff9c?style=flat-square" alt="Event Viewer badge">
 </p>
 
 The tool list is intentionally small. Each case uses only the tools needed to answer the investigative question cleanly.
@@ -68,10 +73,10 @@ Every published case includes:
 - Containment, eradication, and recovery recommendations
 - Limitations and unanswered questions
 
-## Roadmap
+## Case Status
 
-| Status | Case | Planned Focus |
+| Status | Case | Focus |
 | --- | --- | --- |
 | <img src="https://img.shields.io/badge/published-01-5cf2a8" alt="Published 01 badge"> | Meridian Financial Services Ransomware Incident | Disk and PCAP ransomware investigation |
 | <img src="https://img.shields.io/badge/published-02-5cf2a8" alt="Published 02 badge"> | HackForge Unusual Process Memory Triage | Windows memory triage |
-| <img src="https://img.shields.io/badge/planned-03-00e5ff" alt="Planned 03 badge"> | Scoped Enterprise Compromise Investigation | Endpoint, identity, and network correlation |
+| <img src="https://img.shields.io/badge/published-03-5cf2a8" alt="Published 03 badge"> | InsecureBank DCSync Event Log Investigation | Active Directory Security event-log analysis |

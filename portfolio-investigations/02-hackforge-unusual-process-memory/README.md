@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/terminal-case-02-hackforge.svg" alt="HackForge unusual process memory triage case card" width="100%">
+  <img src="../../assets/terminal-case-02-hackforge-snapshot.svg" alt="HackForge unusual process memory triage case card" width="100%">
 </p>
 
 # HackForge Unusual Process Memory Triage

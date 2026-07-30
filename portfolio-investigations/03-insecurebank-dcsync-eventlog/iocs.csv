@@ -1,0 +1,10 @@
+type,value,context
+host,DC1.insecurebank.local,Domain controller that recorded the event
+account,insecurebank\\Administrator,Subject account that performed Directory Service access
+event_id,4662,Security event for object access
+object_server,DS,Directory Service object access
+access_mask,0x100,Control Access
+accesses,Control Access,Access type shown in Event 4662
+guid,{1131f6ad-9c07-11d1-f79f-00c04fc2dcd2},Replication-related GUID associated with DCSync detection
+guid,{19195a5b-6da0-11d0-afd3-00c04fd930c9},Observed object type/context GUID in the event
+logon_id,0x40C6511,Subject logon ID from the event
